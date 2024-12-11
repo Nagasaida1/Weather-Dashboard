@@ -1,0 +1,160 @@
+/* General Styling */
+
+body {
+  background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALMAvwMBIgACEQEDEQH/xAAYAAEAAwEAAAAAAAAAAAAAAAAAAwUGB//EACUQAQACAgECBQUAAAAAAAAAAAABAwIEEQUSBiGBkaEHIjJBcf/EABgBAQADAQAAAAAAAAAAAAAAAAACBAcF/8QAGxEBAQACAwEAAAAAAAAAAAAAAAEDEQIEcTL/2gAMAwEAAhEDEQA/AOTgNmc4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEuzVhTflXXfXsYxxxbVGUY5eX67oifhES7mwAAAAAAAAAAAAAAAAAAAAbD6T9M1+q+N9OjcwwsoxrtzzrzjmMvsmIj3mJ9GPW3hbrl3hvruv1XXriyyjujsmeIy7sZx8/fn0V+5wyZOvk4Y/qy690lxslm1bsbF21dlds3WXW5flnZlOWU/wBmUYLEkk1EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q==') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header Styling */
+.App-header {  
+  color: #1e3a8a;  
+} 
+
+/* Name Styling */
+.name h1 {
+  font-size: 1.5rem;
+  color: #1e3a8a; 
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 200px; /* Reduced width of the input */
+  padding: 8px; /* Reduced padding */
+  font-size: 14px; /* Smaller font size */
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 12px; /* Reduced button padding */
+  font-size: 14px; /* Smaller font size for the button */
+  background-color: #163a72; /* Darker blue button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #1e3a8a; /* Lighter blue on hover */
+}
+
+/* Weather Card Styling */
+.weather-card {
+  margin: 20px auto;
+  padding: 20px;
+  width: 350px;
+  background-color: #24c0f0; /* White card background */
+  box-shadow: 0px 4px 8px skyblue;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.weather-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #1e3a8a; /* Blue heading for weather card */
+}
+
+.weather-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.weather-card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #1e3a8a;
+  color: #970000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-card button:hover {
+  background-color: #166772;
+}
+
+/* Saved Cities Styling */
+.saved-cities {
+  margin-top: 20px;
+}
+
+.saved-cities h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f1f1f1; /* White text for saved cities heading */
+}
+
+.saved-cities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-cities li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #0e8fcf; /* Light gray for saved cities */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saved-cities li:hover {
+  background-color: #d1d5db; /* Slightly darker gray on hover */
+}
+
+/* Unit Toggle Styling */
+.unit-toggle {
+  margin-top: 20px;
+}
+
+.unit-toggle label {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.unit-toggle input[type="radio"] {
+  margin-right: 5px;
+}
+
+.container {
+  width: 12px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 50px;
+  padding: 2px; /* Add some padding inside the container */
+  background-color: #fcfcfc; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.text-center {
+  text-align: center; /* Center the text inside the container */
+}
+
+h1 {
+  color: #333; /* Dark color for the heading */
+  font-size: 2.5rem; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
